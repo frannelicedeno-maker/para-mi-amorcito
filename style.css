@@ -1,0 +1,15 @@
+body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; font-family: sans-serif; overflow: hidden; color: white; }
+.container { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
+.hidden { display: none !important; }
+#view-card { background: radial-gradient(circle, #2a0005 0%, #000 100%); }
+.card { text-align: center; width: 85%; max-width: 350px; padding: 20px; border-radius: 20px; background: rgba(0,0,0,0.6); border: 1px solid #ff4d6d; }
+.profile-wrap { width: 120px; height: 120px; margin: 0 auto 1rem; border-radius: 50%; border: 2px solid #ff4d6d; overflow: hidden; }
+.profile-img { width: 100%; height: 100%; object-fit: cover; }
+.btn { width: 100%; padding: 10px; margin: 5px 0; border-radius: 20px; border: 1px solid #ff4d6d; background: transparent; color: white; cursor: pointer; }
+.btn-special { background: linear-gradient(90deg, #ff0055, #7a00ff); border: none; }
+.modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); display: flex; justify-content: center; align-items: center; z-index: 2000; }
+.modal-content { background: #1a0005; border: 1px solid #ff4d6d; padding: 20px; border-radius: 20px; width: 80%; }
+.img-recuerdo { width: 100%; border-radius: 10px; margin-bottom: 10px; }
+.galeria-scroll { max-height: 60vh; overflow-y: auto; }
+.love-phrase { position: absolute; color: white; font-weight: bold; opacity: 0; animation: fadeInOut 8s infinite linear; }
+@keyframes fadeInOut { 0%, 100% { opacity: 0; } 20%, 80% { opacity: 1; } }
